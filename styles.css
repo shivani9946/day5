@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hwb(292 82% 12% / 0.986);
+    background-image:url(background.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .frame {
+    background-color: hsla(278, 69%, 54%, 0.507);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.836);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: hsla(281, 61%, 31%, 0.795);
+    border:none;
+    color:#fff;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid hsl(234, 30%, 79%);
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: hsl(281, 69%, 32%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #837194;
+  }
+  
+  input:invalid,
+  textarea:invalid {
+    border-color: #502adae0;
+  }
+  
+  input:valid,
+  textarea:valid {
+    border-color: #a3adac;
+  }
+  
